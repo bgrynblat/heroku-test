@@ -1,0 +1,26 @@
+{
+  "name": "heroku-test",
+  "version": "0.0.1",
+  "description": "A sample Node.js app using Express 4",
+  "engines": {
+    "node": "9.11.1"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node test.js"
+  },
+  "dependencies": {
+    "express": "^4.15.2"
+  },
+  "devDependencies": {
+    "request": "^2.81.0",
+    "tape": "^4.7.0"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ],
+  "license": "MIT"
+}
